@@ -5,6 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kalon Tea Viral</title>
 
+<!-- META PIXEL (PUNYA LU) -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1442152421260308');
+fbq('track', 'PageView');
+fbq('track', 'ViewContent');
+</script>
+
 <style>
 body {
   font-family: Arial, sans-serif;
@@ -13,19 +29,19 @@ body {
   color:#333;
 }
 .container {
-  max-width:900px;
+  max-width:700px;
   margin:auto;
   padding:20px;
 }
 .title {
-  font-size:26px;
+  font-size:24px;
   font-weight:bold;
   text-align:center;
 }
 .subtitle {
   text-align:center;
   color:#666;
-  margin-top:8px;
+  margin-top:10px;
 }
 img {
   width:100%;
@@ -34,10 +50,10 @@ img {
 }
 .card {
   background:#fff;
-  padding:20px;
+  padding:18px;
   border-radius:10px;
-  margin-bottom:20px;
-  box-shadow:0 2px 10px rgba(0,0,0,0.05);
+  margin-bottom:15px;
+  line-height:1.6;
 }
 .cta {
   text-align:center;
@@ -51,167 +67,118 @@ img {
   border-radius:8px;
   font-weight:bold;
   display:inline-block;
-  animation: pulse 1.5s infinite;
 }
-@keyframes pulse {
-  0% {transform: scale(1);}
-  50% {transform: scale(1.05);}
-  100% {transform: scale(1);}
-}
-.urgency {
-  background:#fff3cd;
-  padding:10px;
-  border-radius:8px;
-  text-align:center;
-  margin-bottom:15px;
-}
-.stock {
-  text-align:center;
-  color:red;
+.highlight {
+  color:#e53935;
   font-weight:bold;
-  margin-bottom:15px;
-}
-.testi {
-  background:#fafafa;
-  padding:10px;
-  border-radius:8px;
-  margin-bottom:10px;
-}
-.popup {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  background: #fff;
-  padding: 12px 15px;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-  font-size: 13px;
-  display: none;
-}
-.timer {
-  text-align:center;
-  font-weight:bold;
-  color:#d32f2f;
-  margin-bottom:10px;
 }
 </style>
 
 </head>
+
 <body>
 
 <div class="container">
 
 <!-- HOOK -->
 <div class="title">
-“Aku kira ini cuma gimmick…<br>
-tapi setelah 5 hari, perut mulai berubah 😳”
+Aku kira ini cuma bohongan<br>tapi setelah beberapa hari, badan mulai lebih ringan.
 </div>
 
 <div class="subtitle">
-Yang awalnya cuma lihat… sekarang malah ikut nyobain
+Banyak yang awalnya cuma lihat, sekarang malah rutin minum
 </div>
 
 <img src="https://down-id.img.susercontent.com/file/id-11134207-8224y-mkmcfao6db7r03.webp">
 
 <!-- CTA ATAS -->
 <div class="cta">
-<a href="https://s.shopee.co.id/70G8IFWYWG" target="_blank">
-👇 CEK SEKARANG DI SHOPEE
+<a href="https://s.shopee.co.id/70G8IFWYWG" target="_blank"
+onclick="fbq('track','InitiateCheckout')">
+👇 Cek Produk Asli di Shopee Sekarang
 </a>
-</div>
-
-<div class="urgency">
-⚠️ Sedang viral & banyak yang checkout sekarang
-</div>
-
-<div class="timer" id="timer">
-⏳ Promo berakhir dalam: 05:00
-</div>
-
-<div class="stock" id="stock">
-🔥 Sisa stok hari ini: 37 pcs
 </div>
 
 <!-- STORY -->
 <div class="card">
-<p>
-Awalnya aku juga skeptis...
-masa iya cuma minum teh bisa bantu nurunin berat badan?
-</p>
+Awalnya aku juga gampang lapar, susah kontrol makan, dan berat badan naik terus.
 
-<p>
-Tapi karena makin banyak yang bahas,
-akhirnya aku coba juga...
-</p>
+Udah coba macem-macem cara, tapi hasilnya gitu-gitu aja.
 
-<p>
-Dan yang bikin kaget...
-badan mulai terasa lebih ringan 😳
-</p>
+Sampai akhirnya aku liat ini lagi rame banget…
+dan akhirnya aku coba juga.
 </div>
 
-<!-- BENEFIT -->
+<!-- TRANSISI -->
 <div class="card">
-<h3>Kenapa banyak yang coba:</h3>
+Ternyata ini bukan teh biasa…
+</div>
+
+<!-- PRODUK -->
+<div class="card">
+<b>Kalon Teh Hijau Premium Saffron</b> adalah minuman herbal yang menggabungkan teh hijau pilihan dengan saffron premium.
+
+<div class="highlight">✔️ BPOM & HALAL</div>
+
+Terbuat dari bahan alami:
 <ul>
-<li>Membantu mengontrol nafsu makan</li>
-<li>Mendukung pembakaran lemak</li>
-<li>Melancarkan pencernaan</li>
-<li>Tidak bikin mules</li>
+<li>Teh Hijau (Camellia Sinensis)</li>
+<li>Serai</li>
+<li>Jahe</li>
+<li>Daun herbal pilihan</li>
+<li>Premium Saffron</li>
 </ul>
 </div>
 
-<!-- TESTIMONI -->
+<!-- MANFAAT -->
 <div class="card">
-<h3>Yang udah coba bilang:</h3>
+<b>Manfaat yang banyak dirasain:</b>
+<ul>
+<li>Membantu mengurangi lemak tubuh</li>
+<li>Mengontrol nafsu makan</li>
+<li>Melancarkan pencernaan</li>
+<li>Badan terasa lebih ringan</li>
+</ul>
+</div>
 
-<div class="testi">“Baru beberapa hari udah mulai kerasa 😍”</div>
-<div class="testi">“Awalnya ragu, sekarang rutin minum”</div>
-<div class="testi">“Enak & gak bikin sakit perut!”</div>
+<!-- KEUNGGULAN -->
+<div class="card">
+<b>Kenapa banyak yang pilih ini?</b>
+<ul>
+<li>Tidak pahit, enak diminum</li>
+<li>Tidak bikin mules</li>
+<li>Aman untuk busui</li>
+<li>Bisa dikonsumsi usia 12+</li>
+<li>Bisa diminum saat puasa</li>
+</ul>
+</div>
 
+<!-- CARA MINUM -->
+<div class="card">
+<b>Cara konsumsi:</b><br><br>
+Seduh 1 kantong dengan 150ml air panas, diamkan 3–5 menit.<br>
+Minum 2x sehari sebelum makan.
+</div>
+
+<!-- SOCIAL PROOF -->
+<div class="card">
+Udah banyak yang coba dan lanjut pakai karena ngerasa bedanya 😳
+</div>
+
+<!-- URGENCY -->
+<div class="card">
+⚠️ Produk ini lagi viral dan sering kehabisan stok
 </div>
 
 <!-- CTA BAWAH -->
 <div class="cta">
-<a href="https://s.shopee.co.id/70G8IFWYWG" target="_blank">
-🔥 LIHAT PRODUK + REVIEW ASLI
+<a href="https://s.shopee.co.id/70G8IFWYWG" target="_blank"
+onclick="fbq('track','InitiateCheckout')">
+🔥 Klik Sekarang Sebelum Kehabisan
 </a>
 </div>
 
 </div>
-
-<div class="popup" id="popup"></div>
-
-<script>
-const names = ["Siti","Rina","Ayu","Dewi","Putri","Lina","Nina"];
-let stock = 37;
-
-function showPopup(){
-  const popup = document.getElementById("popup");
-  const name = names[Math.floor(Math.random() * names.length)];
-
-  popup.innerHTML = "<b>" + name + "</b> baru saja checkout produk ini";
-  popup.style.display = "block";
-
-  setTimeout(()=>{ popup.style.display = "none"; }, 3000);
-
-  if(stock > 10){
-    stock--;
-    document.getElementById("stock").innerText = "🔥 Sisa stok hari ini: " + stock + " pcs";
-  }
-}
-setInterval(showPopup, 5000);
-
-// countdown timer
-let time = 300;
-setInterval(function(){
-  let minutes = Math.floor(time / 60);
-  let seconds = time % 60;
-  document.getElementById("timer").innerText =
-    "⏳ Promo berakhir dalam: " + minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
-  time--;
-}, 1000);
-</script>
 
 </body>
 </html>
